@@ -6,7 +6,7 @@ Sistem analizi proje ödevimiz olan bu app, kullanıcıya kayıt hatırlatmalar�
 ### Henüz Biten Özellikler
 #### 1.Kullanıcı işlemleri
 	Kullanıcı Kaydı
-	Kullanıcı özellikleri
+	Kullanıcı Girişi
 
 
 ![](https://media.giphy.com/media/J5YbIrgmjmEzIlZ6oj/giphy.gif)

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18443254349",
+    "firebase_url": "https://ceviz-88dac.firebaseio.com",
+    "project_id": "ceviz-88dac",
+    "storage_bucket": "ceviz-88dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18443254349:android:a2e207cc0c1594db",
+        "android_client_info": {
+          "package_name": "com.shoparsoft.cevizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18443254349-29jb77f9s9akbp0vt3sk12kuoslc1mn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shoparsoft.cevizapp",
+            "certificate_hash": "b8d80ec38b53ad3713a09a17c1f02bb5b4ef8e05"
+          }
+        },
+        {
+          "client_id": "18443254349-6r4pmjuudk9aag9voamg9k8bidrr6bje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDL2en5vp0b5EQJkECKHPnCFMMCOSH5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18443254349-6r4pmjuudk9aag9voamg9k8bidrr6bje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

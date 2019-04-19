@@ -43,12 +43,14 @@ public class login extends AppCompatActivity {
     }
 
     public void loginin(View view){
-        String email = ((EditText)findViewById(R.id.inputUsername)).getText().toString();
+        final String email = ((EditText)findViewById(R.id.inputUsername)).getText().toString();
         final String password = ((EditText)findViewById(R.id.inputPassword)).getText().toString();
         if(TextUtils.isEmpty(email) || TextUtils.isEmpty(password)){
             Toast.makeText(getApplicationContext(),"Kullanıcı adı veya şifre boş",Toast.LENGTH_LONG).show();
             return;
-        }else{
+        }else if (email.equals("Test")) //Todo : Test icin olan kodu sil
+            startActivity(new Intent(login.this,mainScreen.class));
+        else{
             auth.signInWithEmailAndPassword(email,password).addOnCompleteListener(login.this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {

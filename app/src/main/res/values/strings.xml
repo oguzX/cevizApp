@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">cevizApp</string>
+    <string name="derece_text">17°C</string> <!-- TODO : String.format arastir -->
+    <string name="bulutlu_text">Bulutlu</string>
+    <string name="yagmurlu_text">Yağmurlu</string>
+    <string name="gunesli_text">Güneşli</string>
+    <string name="karli_text">Karlı</string>
+    <string name="pazartesi_text">PAZARTESİ</string>
+    <string name="sali_text">SALI</string>
+    <string name="carsamba_text">ÇARŞAMBA</string>
+    <string name="persembe_text">PERŞEMBE</string>
+    <string name="cuma_text">CUMA</string>
+    <string name="cumartesi_text">CUMARTESI</string>
+    <string name="pazar_text">PAZAR</string>
+    <string name="selam">ŞSİŞ</string>
 </resources>

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "18443254349-jdcrsc9fkiaolog040tbk0tcc660g65u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shoparsoft.cevizapp",
+            "certificate_hash": "e85f148367b4a4e050af0e307992e7681b92defb"
+          }
+        },
+        {
           "client_id": "18443254349-29jb77f9s9akbp0vt3sk12kuoslc1mn2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

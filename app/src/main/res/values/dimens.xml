@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inputWidth">400dp</dimen>
+    <dimen name="inputHalfWidth">155dp</dimen>
+    <dimen name="inputTopMargin">8dp</dimen>
+</resources>

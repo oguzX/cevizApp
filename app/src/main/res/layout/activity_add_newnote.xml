@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNewnote">
+
+    <EditText
+        android:id="@+id/addnoteInputTitle"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addnoteInputDesc"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="110dp"
+        android:hint="Açıklama"
+        android:layout_marginTop="@dimen/inputTopMargin"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/addnoteInputTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addnoteInputTitle"
+        app:layout_constraintTop_toBottomOf="@+id/addnoteInputTitle" />
+
+    <TextView
+        android:id="@+id/inputDate"
+        android:layout_width="@dimen/inputHalfWidth"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/inputTopMargin"
+        android:hint="Tarih"
+        android:onClick="showDatepicker"
+        app:layout_constraintEnd_toStartOf="@+id/inputTime"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="@+id/addnoteInputDesc"
+        app:layout_constraintTop_toBottomOf="@+id/addnoteInputDesc" />
+
+    <TextView
+        android:id="@+id/inputTime"
+        android:layout_width="@dimen/inputHalfWidth"
+        android:layout_height="32dp"
+        android:hint="Saat"
+        android:onClick="showTimepicker"
+        app:layout_constraintBottom_toBottomOf="@+id/inputDate"
+        app:layout_constraintEnd_toEndOf="@+id/addnoteInputDesc"
+        app:layout_constraintTop_toTopOf="@+id/inputDate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="save"
+        android:text="@string/savebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupnotetype"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/inputTime"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputDate"
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inputTopMargin"
+        android:text="Not tipi"
+        app:layout_constraintStart_toStartOf="@+id/inputDate"
+        app:layout_constraintTop_toBottomOf="@+id/inputDate" />
+
+
+</android.support.constraint.ConstraintLayout>

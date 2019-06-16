@@ -8,5 +8,5 @@ Sistem analizi proje ödevimiz olan bu app, kullanıcıya kayıt hatırlatmalar�
 2. Ajandaya kayıt ekleme
 3. Hava durumu ve Takvim takibi
 
-[![](https://i.ibb.co/rM4DP7W/Screenshot-1560643950.png)](https://i.ibb.co/rM4DP7W/Screenshot-1560643950.png | width=100 )
+<img src="https://i.ibb.co/rM4DP7W/Screenshot-1560643950.png" width="300">
 [![](https://media.giphy.com/media/fXb0MeosrZW2YsxrWv/giphy.gif)](https://media.giphy.com/media/fXb0MeosrZW2YsxrWv/giphy.gif)
